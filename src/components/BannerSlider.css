@@ -1,0 +1,58 @@
+.banner-slide {
+  height: 320px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin: 20px 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4); /* darken the image slightly */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 12px;
+}
+
+.text-content {
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+}
+
+.text-content h2 {
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.text-content p {
+  font-size: 1.2rem;
+}
+
+.nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px 14px;
+  border-radius: 50%;
+}
+
+.nav.left {
+  left: 20px;
+}
+
+.nav.right {
+  right: 20px;
+}
